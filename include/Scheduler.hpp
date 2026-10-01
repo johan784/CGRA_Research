@@ -31,6 +31,7 @@ public:
     int achievedII() const { return achievedII_; }
     const std::vector<Placement>& placements() const { return placements_; }
     const std::vector<Route>&     routes()     const { return routes_; }
+    const ReservationTable& reservationTable() const { return rt_; }
 
 private:
     const CGRA& cgra_;

@@ -34,7 +34,6 @@ public:
 
     // RecMII = max over recurrence cycles of ceil(latency / distance).
     int computeRecMII() const;
-
 private:
     std::vector<Instruction> instrs_;
     std::vector<Edge> edges_;
